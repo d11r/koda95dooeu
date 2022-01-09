@@ -39,6 +39,8 @@ code {
   max-width: 90%;
   margin: 0 auto;
   margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 #apply {
