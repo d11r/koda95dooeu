@@ -1,4 +1,7 @@
+import ReactPlayer from 'react-player'
+
 import Head from 'next/head'
+import Link from 'next/link'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -6,18 +9,19 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>KODA95doo | Polozi COD95 | Posao u EU</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Evropskoj Uniji trebaju VOZAČI sa Balkana!" />
+        <ReactPlayer url='https://youtu.be/q8xlOn4Atq8' controls={true} style={{maxWidth: '90%'}} />
+        <Link href="https://forms.gle/4zrXUPyEQAe8j1No7"><button id="apply" >Prijavi se!</button></Link>
+        
       </main>
 
       <Footer />
     </div>
   )
 }
+
