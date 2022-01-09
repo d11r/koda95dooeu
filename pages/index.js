@@ -10,6 +10,7 @@ export default function Home() {
     import('react-facebook-pixel')
     .then((x) => x.default)
     .then((ReactPixel) => {
+      ReactPixel.init('378808883714993')
       ReactPixel.track('ViewContent')
     })
   }
