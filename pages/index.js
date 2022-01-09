@@ -6,6 +6,14 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  const trackClick = () => {
+    import('react-facebook-pixel')
+    .then((x) => x.default)
+    .then((ReactPixel) => {
+      ReactPixel.track('ViewContent')
+    })
+  }
+
   return (
     <div className="container">
       <Head>
@@ -16,7 +24,7 @@ export default function Home() {
       <main>
         <Header title="Evropskoj Uniji trebaju VOZAČI sa Balkana!" />
         <ReactPlayer url='https://youtu.be/q8xlOn4Atq8' controls={true} style={{maxWidth: '90%'}} />
-        <Link href="https://forms.gle/4zrXUPyEQAe8j1No7"><button id="apply" >Prijavi se!</button></Link>
+        <Link href="https://forms.gle/4zrXUPyEQAe8j1No7"><button id="apply" onClick={trackClick}>Prijavi se!</button></Link>
         
       </main>
 
