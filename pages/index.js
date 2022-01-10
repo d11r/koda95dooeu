@@ -59,6 +59,12 @@ export default function Home() {
           property="twitter:image"
           content="https://www.koda95doo.eu/polozikod.png"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <main>

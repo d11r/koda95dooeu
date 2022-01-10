@@ -38,9 +38,38 @@ code {
 .title {
   max-width: 90%;
   margin: 0 auto;
-  margin-bottom: 1rem;
   text-align: center;
   font-size: 2.5rem;
+}
+
+.subtitle {
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-family: 'Caveat', cursive;
+}
+
+.pen-stroke {
+  position: relative;
+  display: inline;
+  color: #f76446;
+}
+
+.pen-stroke svg {
+  position: absolute;
+  top: 1.2em;
+  left: 0;
+  width: 100%;
+  overflow: visible;
+}
+
+.pen-stroke svg path {
+  fill: none;
+  stroke: #f76446;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5px;
 }
 
 #apply {
