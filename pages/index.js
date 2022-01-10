@@ -7,7 +7,7 @@ import Footer from '@components/Footer'
 const CurvedArrow = dynamic(() => import('react-curved-arrow'), {
   ssr: false,
 })
-const ReactPlayer = dynamic(() => import('react-player/youtube'), {
+const ReactPlayer = dynamic(() => import('react-player/lazy'), {
   ssr: false,
 })
 
