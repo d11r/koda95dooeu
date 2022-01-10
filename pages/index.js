@@ -25,6 +25,18 @@ export default function Home() {
       <Head>
         <title>KODA95doo | Polozi COD95 | Posao u EU</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:title"
+          content="Položi COD95, Postani vozač u EU - KOD95doo"
+          key="title"
+        />
+        <meta property="og:url" content="https://www.koda95doo.eu" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="Evropskoj Uniji trebaju vozači sa Balkana. Položi COD95 i iskoristi šansu."
+        />
+        <meta property="og:image" content="/polozikod.png" />
       </Head>
 
       <main>
