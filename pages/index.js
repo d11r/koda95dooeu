@@ -36,7 +36,24 @@ export default function Home() {
           property="og:description"
           content="Evropskoj Uniji trebaju vozači sa Balkana. Položi COD95 i iskoristi šansu."
         />
-        <meta property="og:image" content="/polozikod.png" />
+        <meta
+          property="og:image"
+          content="https://www.koda95doo.eu/polozikod.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://koda95doo.eu/" />
+        <meta
+          property="twitter:title"
+          content="Položi COD95, Postani vozač u EU - KOD95doo"
+        />
+        <meta
+          property="twitter:description"
+          content="Evropskoj Uniji trebaju vozači sa Balkana. Položi COD95 i iskoristi šansu."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.koda95doo.eu/polozikod.png"
+        />
       </Head>
 
       <main>
