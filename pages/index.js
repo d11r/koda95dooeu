@@ -1,4 +1,4 @@
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/lazy'
 
 import Head from 'next/head'
 import Link from 'next/link'
