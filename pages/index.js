@@ -1,5 +1,3 @@
-import ReactPlayer from 'react-player/lazy'
-
 import Head from 'next/head'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
@@ -7,6 +5,9 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 const CurvedArrow = dynamic(() => import('react-curved-arrow'), {
+  ssr: false,
+})
+const ReactPlayer = dynamic(() => import('react-player/youtube'), {
   ssr: false,
 })
 
