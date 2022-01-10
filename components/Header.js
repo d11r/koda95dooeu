@@ -1,4 +1,8 @@
-import Underline from './Underline'
+import dynamic from 'next/dynamic'
+
+const Underline = dynamic(() => import('./Underline'), {
+  ssr: false,
+})
 
 export default function Header({title}) {
   return (
