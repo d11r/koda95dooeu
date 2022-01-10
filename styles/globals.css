@@ -12,7 +12,7 @@ body {
 
 main {
   width: 100%;
-  padding: 5rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ code {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,14 +39,14 @@ code {
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .subtitle {
-  margin: 0 auto 1rem auto;
+  margin: 1rem auto;
   text-align: center;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
   font-family: 'Caveat', cursive;
 }
 
@@ -54,6 +54,12 @@ code {
   position: relative;
   display: inline;
   color: #f76446;
+}
+
+@media screen and (max-width: 450px) {
+  canvas {
+    display: none;
+  }
 }
 
 .pen-stroke svg {
